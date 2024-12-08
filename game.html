@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thank you for your order!</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/ucn1ucm.css">
+    </head>
+    <body>
+        <p id="timer">Your food will be ready in: </p>
+        <h1>Find the customer!</h1>
+        <p id="promo">Play for a chance to win up to 30% off your next order!</p>
+        <p id="real-directions">Directions: Take your customers' orders. When orders come out, hand them to the correct customer. Be careful, if you get an order wrong, you risk a bad review!</p>
+        <!-- <p>Directions: Match the food item to the customer who ordered it. One click allows you to view the customer's order; your goal is to match everyone before your clicks run out.</p> -->
+        <br>
+
+        <button id="start">Start</button>
+        <div id="layout">
+            <div>
+                <p id="directions"></p>
+                <img id="bobst" src="images/bobst.jpg" width="700px">
+    
+                <div id="take-orders">
+                    <div id="image">
+                        <img id="customer" src="" width="350px">
+                        <img id="order" src="" width="100px">
+                    </div>
+                </div>
+    
+                <div id="play">
+                    <div id="grid">
+                        <!-- <img src="" width="100px" id="c1">
+                        <img src="" width="100px" id="c2">
+                        <img src="" width="100px" id="c3"> -->
+                    </div>
+                </div>
+            </div>
+    
+            <div id="orderdiv">
+                <h2>Order Up:</h2>
+                <img src="" id="orderup" width="150px">
+                <h2 id="status"></h2>
+            </div>
+        </div>
+
+        <div id="gameover" class="hide">
+            <h2>Game Over!</h2>
+        </div>
+        
+        <script src="game.js"></script>
+    </body>
+</html>
