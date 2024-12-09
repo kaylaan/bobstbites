@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BobstBites</title>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="home.html"><h1>BobstBites</h1></a>
+            <h2>Fast, Flavorful, & Fresh!</h2>
+        </header>
+    
+        <nav>
+            <a href="signin.html"><h2>Sign In</h2></a>
+            <a href="game.html"><h2>Play!</h2></a>
+        </nav>
+
+        <div id="text">
+            <h2 id="signuptext">Sign Up</h2>
+            <h2 id="logintext">Log In</h2>
+        </div>
+
+        <form action="signup.php" method="POST" id="signup">
+            <p>Name<input type='text' name='name'></p>
+            <p>Username<input type='text' name='username'></p>
+            <p>Password<input type='password' name='password'></p>
+            <hr>
+            <input type='reset' value='Reset'>
+            <input type='submit' value='Sign Up'>
+            
+        </form>
+
+        <form action="login.php" method="POST" id="login" class="hide">
+            <p>Username<input type='text' name='username'></p>
+            <p>Password<input type='password' name='password'></p>
+            <hr>
+            <input type='reset' value='Reset'>
+            <input type='submit' value='Log In'>
+        </form>
+
+        <footer>
+            <p>BobstBites &copy; 2024 - Fresh, Fast, and Flavorful for NYU</p>
+        </footer>
+        
+        <script src="signin.js"></script>
+    </body>
+</html>
