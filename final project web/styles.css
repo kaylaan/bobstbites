@@ -1,0 +1,124 @@
+body {
+    font-family: 'Bungee', cursive;
+    background: url('img/background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #E31837;
+
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+.menu-container {
+    position: absolute;
+    top: 243px;
+    width: 75%;
+    max-width: 600px;
+    min-width: 300px;
+    height: 30%;
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-color: #cdcdcd;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu-item {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.menu-item img {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu-item p {
+    margin: 8px 0 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.menu-item ul.ingredients {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #E31837;
+
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.button-container a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #E31837;
+    margin-top: 30px;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.button-container a:hover {
+    background-color: #C21430;
+    transform: scale(1.05);
+}
+
+.button-container a:active {
+    transform: scale(0.95);
+}

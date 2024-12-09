@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: 'Bungee', cursive;
+    background-color: #FFD700; /* Vibrant yellow for food truck vibes */
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #E31837; /* Bold red for Halal food truck colors */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+
+  header h2 {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h3 {
+    color: #E31837;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .divider {
+    text-align: center;
+    color: #E31837;
+    font-size: 1.5em;
+    margin: 20px 0;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-image:hover {
+    transform: rotate(20deg);
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100px;
+    padding: 5px;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .actions {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #E31837;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #C21430;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #E31837;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
