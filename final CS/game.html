@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thank you for your order!</title>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="home.html"><h1>BobstBites</h1></a>
+            <h2>Fast, Flavorful, & Fresh!</h2>
+        </header>
+    
+        <nav>
+            <a href="signin.html"><h2>Sign In</h2></a>
+            <a href="game.html"><h2>Play!</h2></a>
+        </nav>
+    
+        <!-- <p id="timer">Your food will be ready in: </p> -->
+        <h1>Find the customer!</h1>
+        <p id="promo"><strong>Play for a chance to win up to 30% off your next order!</strong></p>
+        <p id="real-directions">Directions: Take your customers' orders. When orders come out, hand them to the correct customer. Be careful, if you get an order wrong, you risk a bad review!</p>
+        <!-- <p>Directions: Match the food item to the customer who ordered it. One click allows you to view the customer's order; your goal is to match everyone before your clicks run out.</p> -->
+        <br>
+
+        <button id="start">Start</button>
+        <div id="layout">
+            <div>
+                <p id="directions"></p>
+                <img id="bobst" src="images/bobst.jpg" width="700px">
+    
+                <div id="take-orders">
+                    <div id="image">
+                        <img id="customer" src="" width="350px">
+                        <img id="speech" src="images/speech.png" width="350px">
+                        <img id="order" src="" width="100px">
+                    </div>
+                </div>
+    
+                <div id="play">
+                    <div id="grid">
+                    </div>
+                </div>
+            </div>
+    
+            <div id="orderdiv">
+                <h2>Order Up:</h2>
+                <img src="" id="orderup" width="150px">
+                <h2 id="status"></h2>
+            </div>
+        </div>
+
+        <div id="gameover" class="hide">
+            <h2>Game Over!</h2>
+        </div>
+
+        <div id="margin"></div>
+
+        <footer>
+            <p>BobstBites &copy; 2024 - Fresh, Fast, and Flavorful for NYU</p>
+        </footer>
+        
+        <script src="game.js"></script>
+    </body>
+</html>
